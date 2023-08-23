@@ -6,6 +6,7 @@
     list-style: none;
     outline: none;
     transition: all ease .2s;
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 :root {
@@ -21,7 +22,6 @@ a {
 html,
 body {
     line-height: 1.5;
-    font-family: 'Source Sans 3', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -67,7 +67,8 @@ header {
 }
 
 .logo img {
-    height: 80px;
+    height: 120px;
+    margin-top: -20px;
 }
 
 .navbar ul.navbar-list {
@@ -104,6 +105,13 @@ label div{
     background-color: var(--purple);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    border: 1px var(--cyan) solid;
+    border-top: none;
+}
+
+.dropdown ul li a{
+    font-size: 1rem;
+    padding: 1rem;
 }
 
 .navbar ul li:hover ul.dropdown{
@@ -184,6 +192,11 @@ label div{
     padding: 10px 15px;
     background-color: var(--purple);
     font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.8;
 }
 
 .btn-yellow {
