@@ -1,0 +1,39 @@
+/* Tablet */
+
+@media (min-width: 740px) {
+    .section_4 .row .col {
+        margin-bottom: 10rem;
+    }
+
+    .sec_6-content {
+        justify-content: center;
+    }
+}
+
+/* Mobile */
+
+@media (max-width:740px) {
+    .toggle {
+        display: block;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .section_4 .row .col {
+        margin-bottom: 10rem;
+    }
+
+    .sec_6-content {
+        justify-content: center;
+    }
+
+    .footer-btn{
+        justify-content: space-around;
+    }
+
+    .footer-btn .btn{
+        margin: 0;
+    }
+}
