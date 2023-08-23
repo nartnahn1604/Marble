@@ -28,7 +28,7 @@ body {
 .container {
     width: 100%;
     padding: 0 10%;
-    margin: 32px auto;
+    margin: 0 auto;
 }
 
 section {
@@ -64,21 +64,18 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    padding: 0 10%;
-    margin: 0 auto;
 }
 
 .logo img {
     height: 80px;
 }
 
-.navbar ul {
+.navbar ul.navbar-list {
     display: flex;
-
 }
 
 .navbar ul li {
+    position: relative;
     margin: 0 15px;
 }
 
@@ -88,6 +85,21 @@ header {
     white-space: nowrap;
     padding: 5px 10px;
     color: #fff;
+}
+
+.dropdown{
+    position: absolute;
+    top: 35px;
+    left: -15px;
+    display: none;
+    background-color: var(--purple);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.navbar ul li:hover ul.dropdown{
+    display: flex;
+    flex-direction: column;
 }
 
 .section_1 {
@@ -298,10 +310,6 @@ textarea {
     color: #fff;
     white-space: pre-line;
     height: 100%;
-}
-
-.footer{
-    margin: 0 auto;
 }
 
 .footer-social {

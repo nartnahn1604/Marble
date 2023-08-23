@@ -1,4 +1,4 @@
-/* Tablet */
+/* Tablet > 740px*/
 
 @media (min-width: 740px) {
     .section_4 .row .col {
@@ -10,15 +10,22 @@
     }
 }
 
-/* Mobile */
+/* Mobile  < 740px*/
 
 @media (max-width:740px) {
     .toggle {
         display: block;
     }
 
-    .navbar ul {
+    .navbar ul.navbar-list {
         display: none;
+    }
+
+    .dropdown{
+        top: 0px;
+        left:unset;
+        right: 30px;
+        background-color: transparent;
     }
 
     .section_4 .row .col {

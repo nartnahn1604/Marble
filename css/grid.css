@@ -101,7 +101,7 @@
 }
 
 
-/* PC medium resolution > */
+/* PC medium resolution > 1113px*/
 
 @media (min-width: 1113px) {
     .row {
@@ -255,7 +255,7 @@
 }
 
 
-/* Tablet - PC low resolution */
+/* Tablet - PC low resolution  > 740 < 1023<*/
 
 @media (min-width: 740px) and (max-width: 1023px) {
     .wide {
@@ -267,7 +267,7 @@
     }
 }
 
-/* >= Tablet */
+/*  Tablet > 740 */
 
 @media (min-width: 740px) {
     .row {
