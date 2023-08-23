@@ -21,11 +21,20 @@
         display: none;
     }
 
-    .dropdown{
+    .navbar ul li:hover ul.dropdown {
+        display:none;
+    }
+
+    #submenu:checked ~ ul.dropdown{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dropdown {
         top: 0px;
-        left:unset;
+        left: unset;
         right: 30px;
-        background-color: transparent;
+        background-color: unset;
     }
 
     .section_4 .row .col {
@@ -36,11 +45,11 @@
         justify-content: center;
     }
 
-    .footer-btn{
+    .footer-btn {
         justify-content: space-around;
     }
 
-    .footer-btn .btn{
+    .footer-btn .btn {
         margin: 0;
     }
 }
